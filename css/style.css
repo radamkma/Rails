@@ -1,0 +1,164 @@
+a.back-to-top {
+	display: none;
+	width: 60px;
+	height: 60px;
+	text-indent: -9999px;
+	position: fixed;
+	z-index: 999;
+	right: 20px;
+	bottom: 20px;
+	background: #54aed0 url("../images/arrow.png") no-repeat center 43%;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+#legendcircle1, #Roosevelt1, #Balintawak1, #Monumento1, #FifthAve1, #RPapa1, #AbadSantos1, #Blumentritt1, #Tayuman1, #Bambang1, #Doroteo1, #Carriedo1, #Central1, #UNAve1, #PedroGil1, #Quirino1, #VitoCruz1, #GilPuyat1, #Libertad1, #Edsa1, #Baclaran1, #recto1, #legarda1, #pureza1, #vmapa1, #jruiz1, #gilmore1, #bettygo1, #cubao1, #anonas1, #katipunan1, #santolan1, #north1, #quezon1, #kamuning1, #cubao1, #santolan1, #ortigas1, #shaw1, #boni1, #guadalupe1, #buendia1, #ayala1, #magellanes1, #edsa1 {
+	display: inline-block; 
+	border-top-left-radius: 50px; 
+	border-bottom-left-radius: 50px; 
+	height:38px; 
+	width:20px; 
+	background-color: #54aed0; 
+	color:transparent;
+}
+
+
+#legendcircle2, #Roosevelt2, #Balintawak2, #Monumento2, #FifthAve2, #RPapa2, #AbadSantos2, #Blumentritt2, #Tayuman2, #Bambang2, #Doroteo2, #Carriedo2, #Central2, #UNAve2, #PedroGil2, #Quirino2, #VitoCruz2, #GilPuyat2, #Libertad2, #Edsa2, #Baclaran2, #recto2, #legarda2, #pureza2, #vmapa2, #jruiz2, #gilmore2, #bettygo2, #cubao2, #anonas2, #katipunan2, #santolan2, #north2, #quezon2, #kamuning2, #cubao2, #santolan2, #ortigas2, #shaw2, #boni2, #guadalupe2, #buendia2, #ayala2, #magellanes2, #edsa2 {
+	display: inline-block; 
+	border-top-right-radius: 50px; 
+	border-bottom-right-radius: 50px; 
+	height:38px; 
+	width:20px; 
+	margin-left:-5px;
+	background-color: #54aed0; 
+	color:transparent;
+}
+
+#logo{
+	margin-top: 40px;
+	width: 50%;
+}
+
+@font-face{
+	font-family: Rounded Elegance;
+	src: url("../fonts/Rounded_Elegance.ttf") format("truetype");
+}
+
+.t{
+	font-family: Rounded Elegance;
+	color: white;
+	font-size: 200%;
+}
+
+.t2{
+	font-family: Rounded Elegance;
+	color: #53adcf;
+	font-size: 120%;
+}
+
+body{
+	font-family: Rounded Elegance;
+	color: #53adcf;
+}
+
+.t3{
+	font-family: Rounded Elegance;
+	color: white;
+}
+
+.h{
+	font-family: Rounded Elegance;
+	color: #53adcf;
+}
+
+#footer{
+	background-color: white;
+	bottom:0px;
+	right:0%;
+	left:0%;
+	position:fixed!important;
+	position:absolute;
+	width=100%;
+	top:expression((0-(footer.offsetHeight)+
+	(document.documentElement.clientHeight?
+	document.documentElement.clientHeight:
+	document.body.clientHeight)+(ignoreMe=document.documentElement.scrollTop?
+	document.documentElement.scrollTop:document.
+	body.scrollTop))+'px');
+	text-align:center;
+	visibility:visible;
+}
+
+#choose{
+	margin-top: 60px;
+}
+
+#buttons{
+	margin-top: 5px;
+	padding-bottom: 80px;
+}
+
+.button{
+	width: 100%;
+	margin-top: 10px;	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #339bc2;
+	border: 0;
+	color: white;
+	font-family: Rounded Elegance;
+	font-size: 30px;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+h1{
+	
+}
+
+.button:hover, .button:focus, .button:active{
+	-webkit-transform: translateY(-3px);
+	transform: translateY(-3px);
+}
+
+.navbar{
+	border: 0;
+	background-color: #53adcf;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:white;
+}
+
+#burger{
+	float: left;
+	border: 0;
+	color: white;
+}
+
+#burger:hover{
+	background-color: transparent;
+}
+
+#burger:focus{
+	background-color: transparent;
+}
+
+#details{
+	margin-top: 40px;
+}
+
+#brand{
+	float: right;
+}
+
+.modal-title{
+	text-align: center;
+}
