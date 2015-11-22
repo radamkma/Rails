@@ -5,13 +5,13 @@ Rails is a mobile application that helps rail transit passengers to check the ba
 
 ## Screenshots
 
-![screen1](/images/screen1.png)
+![screen1](/images/screen1.jpg)
 
 
-![screen2](/images/screen2.png)
+![screen2](/images/screen2.jpg)
 
 
-![screen3](/images/screen3.png)
+![screen3](/images/screen3.jpg)
 
 
 ## Tech Used
